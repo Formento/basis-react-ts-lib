@@ -1,0 +1,27 @@
+{
+  "name": "@leonardoformento/basis-react-ts-lib",
+  "version": "1.0.0",
+  "author": "Leonardo S Formento",
+  "license": "MIT",
+  "description": "",
+  "keywords": [],
+  "main": "dist/cjs/index.ts",
+  "module": "dist/esm/index.ts",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.3",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-typescript": "^11.1.2",
+    "@types/react": "^18.2.17",
+    "@types/react-dom": "^18.2.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^3.26.3",
+    "rollup-plugin-dts": "^5.3.0",
+    "tslib": "^2.6.1",
+    "typescript": "^5.1.6"
+  }
+}
